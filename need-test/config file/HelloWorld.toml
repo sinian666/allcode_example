@@ -1,0 +1,22 @@
+[build]
+compiler = "gcc"
+
+[[targets]]
+name = "libsqlite3"
+src = "./sqlite-amalgamation-3410100"
+src_exclude = ["shell.c"]
+include_dir = "./sqlite-amalgamation-3410100"
+type = "static"
+cflags = "-w -DSQLITE_THREADSAFE=0 -DSQLITE_OMIT_FLOATING_POINT -DSQLITE_OMIT_LOAD_EXTENSION"
+archive = "ar"
+ldflags = "rcs"
+
+[[targets]]
+name = "local_sqlite3"
+src = "./"
+src_only = ["main.c"]
+include_dir = "./"
+type = "exe"
+cflags = "-w -g"
+ldflags = ""
+deps = ["libsqlite3"]

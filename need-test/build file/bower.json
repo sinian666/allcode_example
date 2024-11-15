@@ -1,0 +1,28 @@
+{
+    "name": "my-project",
+    "version": "1.0.0",
+    "description": "A sample project using Bower",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/username/my-project.git"
+    },
+    "keywords": [
+        "sample",
+        "bower",
+        "project"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/username/my-project/issues"
+    },
+    "homepage": "https://github.com/username/my-project#readme",
+    "dependencies": {
+        "jquery": "^3.6.0",
+        "bootstrap": "^5.1.3"
+    }
+}

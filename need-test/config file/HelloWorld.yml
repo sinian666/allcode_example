@@ -1,0 +1,8 @@
+
+test:
+  - file_name: "helloworld.yaml"
+    size: 100
+  - file_name: "helloworld2.yaml"
+    size: 100
+  - file_name: "helloworld3.yaml"
+    size: 100

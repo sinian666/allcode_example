@@ -1,0 +1,6 @@
+{
+    "name": "HelloWorld",
+    "parameters": {
+        "input": "Hello, World!"
+    }
+}
